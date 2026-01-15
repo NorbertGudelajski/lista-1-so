@@ -1,0 +1,52 @@
+2025-01-15 08:23:45 [INFO] System started successfully
+2025-01-15 08:23:46 [INFO] Loading configuration from /etc/app/config.yml
+2025-01-15 08:23:47 [WARNING] Configuration file is using deprecated format
+2025-01-15 08:24:01 [INFO] Database connection established
+2025-01-15 08:24:05 [INFO] Starting web server on port 8080
+2025-01-15 08:24:06 [INFO] Web server ready to accept connections
+2025-01-15 09:15:22 [ERROR] Failed to connect to external API: Connection timeout
+2025-01-15 09:15:23 [WARNING] Retrying connection in 5 seconds
+2025-01-15 09:15:28 [INFO] Connection to external API successful
+2025-01-15 10:32:11 [INFO] Processing batch job: daily_report
+2025-01-15 10:32:45 [INFO] Batch job completed successfully
+2025-01-15 11:05:33 [ERROR] Disk space low on /var partition (95% used)
+2025-01-15 11:05:34 [WARNING] Starting cleanup procedure
+2025-01-15 11:06:12 [INFO] Cleanup completed, freed 2.3 GB
+2025-01-15 12:00:00 [INFO] Hourly backup started
+2025-01-15 12:00:45 [INFO] Backup completed: backup-2025-01-15-12h00.tar.gz
+2025-01-15 13:45:17 [ERROR] Authentication failed for user: admin from IP 192.168.1.50
+2025-01-15 13:45:20 [WARNING] Multiple failed login attempts detected
+2025-01-15 13:45:21 [ERROR] Possible brute-force attack, blocking IP 192.168.1.50
+2025-01-15 14:22:09 [INFO] User logged in: john.doe
+2025-01-15 14:22:15 [INFO] User john.doe accessed resource: /api/data
+2025-01-15 15:00:00 [INFO] Cache cleanup started
+2025-01-15 15:00:12 [INFO] Cache cleanup completed
+2025-01-15 15:30:44 [WARNING] Memory usage high: 87%
+2025-01-15 15:30:45 [INFO] Starting memory optimization
+2025-01-15 15:31:02 [INFO] Memory usage reduced to 72%
+2025-01-15 16:10:23 [ERROR] Database query timeout: SELECT * FROM large_table
+2025-01-15 16:10:24 [WARNING] Query performance degraded
+2025-01-15 16:10:30 [INFO] Database query retry successful
+2025-01-15 17:00:00 [INFO] Daily statistics generation started
+2025-01-15 17:00:45 [INFO] Statistics saved to /var/reports/daily-2025-01-15.csv
+2025-01-15 17:45:33 [ERROR] File not found: /tmp/upload/document.pdf
+2025-01-15 17:45:34 [WARNING] Upload process interrupted
+2025-01-15 18:00:00 [INFO] Evening maintenance window started
+2025-01-15 18:00:05 [INFO] Stopping non-critical services
+2025-01-15 18:01:22 [INFO] Running system updates
+2025-01-15 18:15:44 [WARNING] Service restart required after updates
+2025-01-15 18:15:50 [INFO] Restarting services
+2025-01-15 18:16:10 [INFO] All services restarted successfully
+2025-01-15 18:16:11 [INFO] Maintenance window completed
+2025-01-15 19:22:55 [INFO] User logged out: john.doe
+2025-01-15 20:00:00 [INFO] Hourly backup started
+2025-01-15 20:00:52 [INFO] Backup completed: backup-2025-01-15-20h00.tar.gz
+2025-01-15 21:30:17 [ERROR] Network connectivity issue detected
+2025-01-15 21:30:18 [WARNING] Switching to backup network interface
+2025-01-15 21:30:25 [INFO] Network connectivity restored
+2025-01-15 22:00:00 [INFO] Running scheduled cleanup tasks
+2025-01-15 22:00:34 [INFO] Old log files archived
+2025-01-15 22:01:12 [INFO] Temporary files removed
+2025-01-15 23:00:00 [INFO] Nightly backup started
+2025-01-15 23:02:15 [INFO] Full system backup completed
+2025-01-15 23:02:16 [INFO] System status: All services operational
