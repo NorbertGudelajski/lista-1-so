@@ -1,0 +1,1 @@
+ls: nie ma dostępu do '/nieistniejacy-katalog': Nie ma takiego pliku ani katalogu
