@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer dla monitor.service - co 5 minut
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Unit=monitor.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,15 @@
+[Unit]
+Description=Monitor systemu - uruchamia monitor.sh
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/monitor.sh
+StandardOutput=journal
+StandardError=journal
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
