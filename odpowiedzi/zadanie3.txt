@@ -1,0 +1,16 @@
+Bydgoszcz: krzysztof.wozniak
+city: username
+Gdansk: tomasz.kaminski
+Katowice: magdalena.szymanska
+Krakow: anna.nowak
+Krakow: marcin.kozlowski
+Lodz: joanna.jankowska
+Lublin: andrzej.zielinski
+Poznan: agnieszka.krawczyk
+Poznan: maria.wojcik
+Szczecin: katarzyna.lewandowska
+Warszawa: alicja.dabrowski
+Warszawa: jan.kowalski
+Warszawa: robert.piotrowski
+Wroclaw: pawel.mazur
+Wroclaw: piotr.wisniewski
