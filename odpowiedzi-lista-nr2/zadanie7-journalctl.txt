@@ -1,0 +1,14 @@
+# Logi z ostatnich 24 godzin
+journalctl --since "24 hours ago"
+
+# Wyświetlenie tylko błędów (priority 3 i wyższe)
+journalctl -p 3..0
+
+# Logi dla jednostki sshd.service
+journalctl -u sshd.service
+
+# Logi od ostatniego uruchomienia systemu
+journalctl -b
+
+# Logi w formacie JSON
+journalctl -o json
