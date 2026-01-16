@@ -1,0 +1,8 @@
+# Codziennie o 3:00 w nocy uruchamia cleanup.sh
+0 3 * * * /home/user/cleanup.sh
+
+# W każdą niedzielę o 23:00 uruchamia weekly-report.sh
+0 23 * * 0 /home/user/weekly-report.sh
+
+# Co 15 minut (w godzinach pracy 8-17, poniedziałek-piątek) sprawdza dostępność dysku i zapisuje do logu
+*/15 8-17 * * 1-5 df -h >> /home/user/disk-availability.log
