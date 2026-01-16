@@ -1,0 +1,10 @@
+2,7G	/var
+2,3G	/var/lib
+2,0G	/var/lib/snapd
+240M	/var/lib/apt
+199M	/var/cache
+139M	/var/log
+132M	/var/log/journal
+118M	/var/cache/apt
+61M	/var/lib/dpkg
+23M	/var/lib/swcatalog
