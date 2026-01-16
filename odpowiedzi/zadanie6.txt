@@ -1,0 +1,7 @@
+razem 20
+drwxrwxr-x 5 norbert-gudelajski norbert-gudelajski 4096 sty 16 16:19 .
+drwxrwxr-x 3 norbert-gudelajski norbert-gudelajski 4096 sty 16 16:19 ..
+lrwxrwxrwx 1 norbert-gudelajski norbert-gudelajski   12 sty 16 16:19 backup-link -> projekt/dane
+drwxrwx--- 2 norbert-gudelajski norbert-gudelajski 4096 sty 16 16:19 dane
+drwxr-xr-x 2 norbert-gudelajski norbert-gudelajski 4096 sty 16 16:19 dokumentacja
+drwx------ 2 norbert-gudelajski norbert-gudelajski 4096 sty 16 16:19 kod
