@@ -1,0 +1,20 @@
+# 1. Sprawdzenie statusu usługi nginx
+sudo systemctl status nginx.service
+
+# 2. Zatrzymanie usługi nginx
+sudo systemctl stop nginx.service
+
+# 3. Ponowne uruchomienie usługi nginx
+sudo systemctl start nginx.service
+
+# 4. Włączenie automatycznego startu usługi nginx przy starcie systemu
+sudo systemctl enable nginx.service
+
+# 5. Przeładowanie konfiguracji demona systemd
+sudo systemctl daemon-reload
+
+# 6. Wyświetlenie wszystkich aktywnych usług
+systemctl list-units --type=service --state=active
+
+# 7. Wyświetlenie nieudanych (failed) usług
+systemctl --failed
