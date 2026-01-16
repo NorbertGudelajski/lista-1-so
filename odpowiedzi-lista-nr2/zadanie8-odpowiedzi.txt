@@ -1,0 +1,20 @@
+1. Co robi ta usługa?
+   Uruchamia aplikację webową znajdującą się w /opt/myapp/app.py przy użyciu Pythona 3.
+
+2. Kiedy usługa zostanie uruchomiona względem innych usług?
+   Po uruchomieniu usługi postgresql.service oraz po network.target.
+
+3. Co się stanie, jeśli postgresql.service nie będzie dostępna?
+   Usługa nie wystartuje, ponieważ zależy od postgresql.service (Requires=postgresql.service).
+
+4. Jako który użytkownik będzie działać usługa?
+   Jako użytkownik `webapp`.
+
+5. Co się stanie w przypadku awarii usługi?
+   Usługa zostanie ponownie uruchomiona po 10 sekundach (Restart=on-failure, RestartSec=10).
+
+6. Gdzie trafiają logi tej usługi?
+   Logi standardowego wyjścia i błędów trafiają do dziennika systemd (journal) dzięki StandardOutput=journal i StandardError=journal.
+
+7. Kiedy usługa zostanie automatycznie uruchomiona po starcie systemu?
+   Usługa zostanie uruchomiona automatycznie w trybie multi-user.target (WantedBy=multi-user.target).
